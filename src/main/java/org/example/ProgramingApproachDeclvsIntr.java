@@ -12,15 +12,19 @@ public class ProgramingApproachDeclvsIntr{
         private String name;
         private String gender;
         private int age;
+        private int phone number;
 
-        public Person(String gender, String name) {
+        public Person(String gender, String name, int age, int phone number) {
             this.gender = gender;
             this.name = name;
+            this.age = age;
+            this.phone number = phone number;
         }
-        public Person(String name, String gender, int age){
+        public Person(String name, String gender, int age, int phone number ){
             this.name = name;
             this.gender = gender;
             this.age = age;
+            this.phone number = phone number;
         }
 
         @Override
